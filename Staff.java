@@ -1,6 +1,6 @@
 public abstract class Staff implements iStaff {
 
-    // Variables to store staff information
+    // Variables to store staff data
     private int staffNumber;
     private String staffLocation;
 
@@ -10,19 +10,19 @@ public abstract class Staff implements iStaff {
         this.staffLocation = staffLocation;
     }
 
-    // Get the staff number
+    // staff number
     @Override
     public int getStaffNumber() {
         return staffNumber;
     }
 
-    // Get the staff location
+    // staff location
     @Override
     public String getStaffLocation() {
         return staffLocation;
     }
 
-    // Abstract method for the hiring process
+    // Abstract method
     @Override
     public abstract String getStaffHiringProcess();
 }
