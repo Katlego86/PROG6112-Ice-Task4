@@ -5,7 +5,7 @@ public class StaffHiring extends Staff {
         super(staffNumber, staffLocation);
     }
 
-    // Determine whether additional staff must be hired
+    // additional staff must be hired
     @Override
     public String getStaffHiringProcess() {
 
@@ -16,7 +16,7 @@ public class StaffHiring extends Staff {
         }
     }
 
-    // Print the staff hiring report
+    // Print hiring report
     public void printStaffHiring() {
 
         System.out.println("==========================================");
