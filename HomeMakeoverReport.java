@@ -33,7 +33,7 @@ public class HomeMakeoverReport {
 
         System.out.println("--------------------------------------------------------------");
 
-        // Process each month
+        
         for (int i = 0; i < months.length; i++) {
 
             // Calculate the total makeovers for the month
